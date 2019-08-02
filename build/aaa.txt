@@ -1,0 +1,4 @@
+我想和你去浪漫的土耳其
+
+
+docker run -d -p 9012:8080 -p 8800:8800 -p 8001:8001 --restart=always  --name imapsmart_cz1.0 -v /data/data_imapsmart_cz/webapps:/usr/local/tomcat/webapps -v /data/data_imapsmart_cz/cache:/opt/ 172.16.51.238:1180/smartcity/imapsmart_cz:8.5.33
