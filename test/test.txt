@@ -4,13 +4,8 @@ docker run -d -p 9063:8080 --restart=always --name zhjc1.0 -v /data/data_zhjc/:/
 docker run -d -p 9006:8080 --restart=always --name swgncms1.0 -v  /data/data_swgncms/:/usr/local/tomcat/webapps/   172.16.51.238:1180/base/tomcat:8.5.33
 
 publish 爬普里谢
-
-
 publish 爬普里谢
 publish 爬普里谢
 publish 爬普里谢
 publish 爬普里谢
 publish 爬普里谢
-
-publish 爬普里谢
-docker run -d -p 9006:8080 --restart=always --name swgncms1.0 -v  /data/data_swgncms/:/usr/local/tomcat/webapps/   172.16.51.238:1180/base/tomcat:8.5.33
